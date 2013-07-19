@@ -1,0 +1,9 @@
+Avizo
+=====
+
+"Avizo" means "Communication" in Esperanto.
+
+Avizo is a thin layer on top of Analizo to provide for other projects
+comunication with it.
+
+I'm not sure, but my plan is to implement it by using sockets.

@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+use Modern::Perl;
+use FindBin::libs;
+use Avizo;
+use Avizo::Server;
+
+my $cv = Avizo::Server->condvar;
+Avizo::Server->start_listen(port => '34832');
+
+
+print "Continue doing another tasks...";
+
+$cv->wait;
